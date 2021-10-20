@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+<header>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
@@ -108,17 +108,25 @@
                 text-align: left;
             }
         }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #555555;
+            color: white;
+            text-align: center;
+        }
     </style>
-</head>
+</header>
 <body>
 
 <div class="topnav" id="myTopnav">
     <a href="#contact">Team</a>
     <a href="#about">About</a>
-    <a href="#Home">Home</a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
     <div class="dropdown">
-        <button class="dropbtn">History of internet
+        <button class="dropbtn">Home
             <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
@@ -133,9 +141,6 @@
     </div>
 </div>
 
-<div style="padding-left:16px">
-    <h2>
-</div>
 
 <script>
     function myFunction() {
@@ -147,6 +152,8 @@
         }
     }
 </script>
-
+<div class="footer">
+    <p>&copy; 2021 Pooja K Balaji </p>
+</div>
 </body>
 </html>
